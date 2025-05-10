@@ -1,0 +1,86 @@
+.sidebar-left {
+    border-right: 0.5px solid grey;
+    padding-left: 16px;
+    width: 455px;
+    padding-top: 5px;
+  }
+ 
+  .sidebar-item {
+    display:flex;
+    align-items: center;
+    padding: 14px 10px 12px 12px; /* for padding Top | Right | Bottom | Left */
+    gap: 26px;
+    cursor: pointer;
+    margin-left: 170px;
+  }
+  
+  .sidebar-item--icon {
+    fill: white;
+    width: 27px;
+    height: 27px;
+  }
+  .sidebar-item--home {
+    fill: white;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sidebar-item--label {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .button-post{
+    color:Black;
+    cursor:pointer;
+    background-color: white;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 170px;
+    padding: 15.625px 100px;
+  }
+  
+  .button-profile{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+    padding: 15.625px 70px;
+    color:white;
+    margin-left: 100px;
+    margin-top: 16px;
+  }
+  
+  .profile-dots{
+    display: flex;
+    fill: white;
+    width: 19px;
+    height: 19px;
+    margin-left: 145px;
+    margin-top: 10px;
+  }
+  
+  .profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .profile-handle{
+    display:flex;
+    color:grey;
+    margin-top:-7px;
+  }
+  
+  .profile-name{
+    display:flex;
+    color:white;
+    font-weight: 700;
+  }
+  .profile-header{
+    padding-left: 6px;
+  }

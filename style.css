@@ -1,0 +1,163 @@
+.sidebar-left {
+  border-right: 0.5px solid grey;
+  padding-left: 16px;
+  width: 455px;
+  padding-top: 5px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 10px 12px 12px; /* for padding Top | Right | Bottom | Left */
+  gap: 26px;
+  cursor: pointer;
+  margin-left: 170px;
+}
+
+.sidebar-item--icon {
+  fill: white;
+  width: 27px;
+  height: 27px;
+}
+
+.sidebar-item--home {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar-item--label {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button-post {
+  color: Black;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 170px;
+  padding: 15.625px 100px;
+}
+
+.button-profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 15.625px 70px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 16px;
+}
+
+.profile-dots {
+  display: flex;
+  fill: white;
+  width: 19px;
+  height: 19px;
+  margin-left: 145px;
+  margin-top: 10px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-handle {
+  display: flex;
+  color: grey;
+  margin-top: -7px;
+}
+
+.profile-name {
+  display: flex;
+  color: white;
+  font-weight: 700;
+}
+
+.profile-header {
+  padding-left: 6px;
+}
+
+.sidebar-right {
+  border-left: 0.1px solid grey;
+  width: 455px;
+  padding-top: 19px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.button-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  border: 1px solid grey;
+  padding: 13px;
+  border-radius: 28px;
+  width: 80%;
+  cursor: pointer;
+}
+.button-search svg {
+  margin-left: 5px;
+  fill: white;
+  display: flex;
+  width: 15px;
+  height: 15px;
+}
+.button-search span {
+  margin-left: 5px;
+  color: white;
+  font-weight: 400;
+}
+
+.subscribe-panel {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 13px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  width: 80%;
+  gap: 12px;
+}
+.subscribe-panel > * {
+  margin-left: 10px;
+}
+.subscribe-panel .subscribe-header {
+  font-weight: 900;
+  font-size: 22px;
+}
+.subscribe-panel .subscribe-button {
+  background-color: #1d9bf0;
+  padding: 10px;
+  border-radius: 28px;
+  color: white;
+  width: 40%;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  background-color: black;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
