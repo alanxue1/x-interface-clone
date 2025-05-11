@@ -1,5 +1,6 @@
+@import './variables';
 .sidebar-right {
-    border-left: 0.1px solid grey;
+    border-left: 0.1px solid $grey;
     width: 455px;
     padding-top: 19px;
     padding-left: 40px;
@@ -12,7 +13,7 @@
     justify-content: flex-start;
     align-items: center;
     background: none;
-    border: 1px solid grey;
+    border: 1px solid $grey;
     padding: 13px;
     border-radius: 28px;
     width: 80%;
@@ -38,7 +39,7 @@
     align-items: left;
     padding: 13px;
     border-radius: 15px;
-    border: 1px solid grey;
+    border: 1px solid $grey;
     width: 80%;
     gap:12px;
     
@@ -59,5 +60,105 @@
         width:40%;
         font-weight: 700;
         cursor:pointer;
+    }
+}
+
+.whats-happening{
+    display:flex;
+    flex-direction: column;
+    padding: 13px;
+    border-radius: 15px;
+    border: 1px solid $grey;
+    width: 80%;
+    gap:20px;
+    .heading{
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .news-item{
+        .content{
+            color:white;
+            display: flex;
+            img{
+                height: 80px;
+                width: 80px;
+                border-radius: 28px;
+            }
+            .topic{
+                .title{
+                    font-weight: 700;
+                }
+                .caption{
+                    margin-top:4px;
+                    font-size: 14px;
+                    color:$caption;
+                }
+            }
+        }
+    }
+    .show-more{
+        color: #1d9bf0;
+        font-weight: bold;
+    }
+}
+
+.trending-items{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .trending-block{
+        color:white;
+        font-size: medium;
+        display: flex;
+        flex-direction: row;
+        .content{
+            display:flex;
+            flex-direction: column;
+            gap:5px;
+            .caption{
+                color: $caption;
+            }
+            .title{
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    border-radius: 15px;
+    border: 1px solid $grey;
+    width: 80%;
+    
+    .heading {
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        margin-bottom: 16px;
+    }
+    
+    .button-profile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+        margin-left: 0; 
+        margin-top: -10px;
+
+        button{
+            border-radius: 28px;
+            padding: 5px 30px;
+            background-color: white;
+            color: black;
+            margin-left: 110px;
+        }
     }
 }
