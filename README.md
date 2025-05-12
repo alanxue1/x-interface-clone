@@ -23,7 +23,7 @@ A recreation of Twitter/X's user interface built with HTML and SCSS. This projec
 
 ## Screenshots
 
-(Add screenshots once project is complete)
+![X UI Clone Screenshot](finished_page.png)
 
 ---
 
